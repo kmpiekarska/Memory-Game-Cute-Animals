@@ -1,0 +1,25 @@
+#board {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  background-color: #ffffff;
+  padding: 2px;
+}
+.card {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 0px;
+  text-align: center;
+  max-height: 100px;
+  max-width: 100px;
+}
+#refreshButton {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  box-shadow: 3px 3px gray;
+  padding: 20px;
+  font-size: medium;
+  text-align: center;
+}
